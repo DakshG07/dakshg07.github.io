@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Dukk's Random Thoughts"
+theme = 'PaperMod'
+
+[params]
+defaultTheme = "dark"
+disableThemeToggle = true
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/DakshG07"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://fosstodon.org/@dukk_tm"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discordapp.com/users/602927925121122318"
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+
+
+[params.homeInfoParams]
+Title = "Dukk's Random Thoughts"
+Content = """
+  A place for me to share my most **notable** ideas.
+
+  This site's pretty minimal.
+  Don't worry, I'll be filling this place up pretty soon.
+  """
